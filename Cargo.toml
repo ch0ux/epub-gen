@@ -1,0 +1,14 @@
+[package]
+name = "epub-gen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+zip = { version = "7" }
+tempfile = { version = "3" }
+rust-embed = { version = "8" }
+rayon = { version = "1" }
+epub-builder = "0.8.2"
+image = { version = "0.25.9", features = ["default-formats"] }
+indicatif = "0.18.3"
